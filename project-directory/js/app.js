@@ -69,6 +69,7 @@ if (lowercaseMice === 'yes' || lowercaseMice === 'y') {
   else (alert(userName + ', you do understand the rules of this game, don\'t you?'));
 
   // Question 6: Guess a number with 4 chances
+  function numberGuessingGame() {
   for (let i = 0; i < 4; i++){
 
   let number= 2;
@@ -84,6 +85,9 @@ if (lowercaseMice === 'yes' || lowercaseMice === 'y') {
   } else if (userGuess > number && userGuess < 4){
     alert('I\'m sorry, your guess is too high. Please try again.');
   } else alert('C\'mon now. That number is outside of the specified range.');}
+  }
+
+  numberGuessingGame();
 
   // Question 7: Guess a question with multiple possibilities
   let cars= ['honda', 'toyota', 'ford', 'chevy', 'subaru', 'kia', 'volkswagon', 'acura', 'lexus', 'gmc'];
